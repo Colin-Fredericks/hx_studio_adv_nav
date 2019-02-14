@@ -382,7 +382,9 @@ function addSubCategories(nav, catname){
     $('.category').off('click tap');
     $('.category').on('click tap', function(e){
         let that = this;
-        $('.subcat, .iconbox').hide('slow', function(){ $('.subcat, .iconbox').remove(); });
+        console.log('here?');
+        $('.subcat').hide('slow', function(){ $('.subcat').remove(); });
+        $('.iconbox').hide('slow', function(){ $('.iconbox').remove(); });
         setTimeout(function(){
             $('.category').off('click tap');
             addListeners();
