@@ -3,78 +3,96 @@ let course_structure = [
         {'Easy': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber1'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber2'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber3'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber4'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber5'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber6'
             }
         ]},
         {'Medium': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber11'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber12'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber14'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber15'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber16'
             }
         ]},
         {'Hard': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber21'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber22'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber23'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber24'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber25'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber26'
             }
         ]}
@@ -83,14 +101,17 @@ let course_structure = [
         {'None': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber31'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber42'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber53'
             }
 
@@ -98,14 +119,17 @@ let course_structure = [
         {'HTML': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber61'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber72'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber83'
             }
 
@@ -113,14 +137,17 @@ let course_structure = [
         {'Javascript': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber111'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber112'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber113'
             }
 
@@ -128,14 +155,17 @@ let course_structure = [
         {'Python': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber111'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber112'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber113'
             }
 
@@ -145,82 +175,100 @@ let course_structure = [
         {'Hours': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber11'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber12'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             }
         ]},
         {'A day': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber23'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber24'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             }
         ]},
         {'A week': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber1'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber2'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber3'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             }
         ]},
         {'Do this during prep': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber1'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber2'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber3'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             }
         ]},
         {'Operating procedures': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber1'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber2'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber3'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber13'
             }
         ]}
@@ -229,14 +277,17 @@ let course_structure = [
         {'A-M': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber31'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber42'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber53'
             }
 
@@ -244,14 +295,17 @@ let course_structure = [
         {'N-Z': [
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber61'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber72'
             },
             {
                 'icon': '',
+                'text': '',
                 'location': 'pageNumber83'
             }
 
@@ -262,7 +316,7 @@ let course_structure = [
 function getColor(n){
     // d3 chromatic color scales, schemeCategory10
     let colortext = "1f77b4ff7f0e2ca02cd627289467bd8c564be377c27f7f7fbcbd2217becf";
-    return '#' + colortext.slice(n, n+6);
+    return '#' + colortext.slice((n%9)*6, (n%9)*6+6);
 }
 
 // From David Baron on StackOverflow
