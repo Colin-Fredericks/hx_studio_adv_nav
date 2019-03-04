@@ -1,8 +1,6 @@
-"use strict";
-
 let course_structure = [
     {'Difficulty': [
-        {'easy': [
+        {'Easy': [
             {
                 'icon': '',
                 'location': 'pageNumber1'
@@ -28,7 +26,7 @@ let course_structure = [
                 'location': 'pageNumber6'
             }
         ]},
-        {'medium': [
+        {'Medium': [
             {
                 'icon': '',
                 'location': 'pageNumber11'
@@ -54,7 +52,7 @@ let course_structure = [
                 'location': 'pageNumber16'
             }
         ]},
-        {'hard': [
+        {'Hard': [
             {
                 'icon': '',
                 'location': 'pageNumber21'
@@ -81,8 +79,8 @@ let course_structure = [
             }
         ]}
     ]},
-    {'Unnecessarily long category name': [
-        {'a': [
+    {'Prerequisites': [
+        {'None': [
             {
                 'icon': '',
                 'location': 'pageNumber31'
@@ -97,7 +95,7 @@ let course_structure = [
             }
 
         ]},
-        {'b': [
+        {'HTML': [
             {
                 'icon': '',
                 'location': 'pageNumber61'
@@ -112,7 +110,22 @@ let course_structure = [
             }
 
         ]},
-        {'c': [
+        {'Javascript': [
+            {
+                'icon': '',
+                'location': 'pageNumber111'
+            },
+            {
+                'icon': '',
+                'location': 'pageNumber112'
+            },
+            {
+                'icon': '',
+                'location': 'pageNumber113'
+            }
+
+        ]},
+        {'Python': [
             {
                 'icon': '',
                 'location': 'pageNumber111'
@@ -128,8 +141,8 @@ let course_structure = [
 
         ]}
     ]},
-    {'Short': [
-        {'aaaaaaaaaaaaaaaaaaa': [
+    {'Length': [
+        {'Hours': [
             {
                 'icon': '',
                 'location': 'pageNumber11'
@@ -143,7 +156,7 @@ let course_structure = [
                 'location': 'pageNumber13'
             }
         ]},
-        {'bbbbbbbbbbbbbbbb': [
+        {'A day': [
             {
                 'icon': '',
                 'location': 'pageNumber23'
@@ -157,7 +170,7 @@ let course_structure = [
                 'location': 'pageNumber13'
             }
         ]},
-        {'cccccccccccccccccccccccc': [
+        {'A week': [
             {
                 'icon': '',
                 'location': 'pageNumber1'
@@ -175,7 +188,7 @@ let course_structure = [
                 'location': 'pageNumber13'
             }
         ]},
-        {'ddddddddddddddddddddddddddd': [
+        {'Do this during prep': [
             {
                 'icon': '',
                 'location': 'pageNumber1'
@@ -193,7 +206,7 @@ let course_structure = [
                 'location': 'pageNumber13'
             }
         ]},
-        {'eee eeeee eee eeeee ee eeeeeeeeee': [
+        {'Operating procedures': [
             {
                 'icon': '',
                 'location': 'pageNumber1'
@@ -212,8 +225,8 @@ let course_structure = [
             }
         ]}
     ]},
-    {'PlaceholderL': [
-        {'aaaa': [
+    {'Alphabetical': [
+        {'A-M': [
             {
                 'icon': '',
                 'location': 'pageNumber31'
@@ -228,69 +241,7 @@ let course_structure = [
             }
 
         ]},
-        {'bb bbbb': [
-            {
-                'icon': '',
-                'location': 'pageNumber61'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber72'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber83'
-            }
-
-        ]},
-        {'cc cccc cccccc': [
-            {
-                'icon': '',
-                'location': 'pageNumber111'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber112'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber113'
-            }
-
-        ]},
-        {'ddddddd dddddd dd': [
-            {
-                'icon': '',
-                'location': 'pageNumber111'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber112'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber113'
-            }
-
-        ]}
-    ]},
-    {'PlaceholderR': [
-        {'arthaus': [
-            {
-                'icon': '',
-                'location': 'pageNumber31'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber42'
-            },
-            {
-                'icon': '',
-                'location': 'pageNumber53'
-            }
-
-        ]},
-        {'barthaus': [
+        {'N-Z': [
             {
                 'icon': '',
                 'location': 'pageNumber61'
@@ -322,6 +273,7 @@ function getEmSize(el) {
 
 // Add major categories in their divs to the screen
 function addCategories(nav){
+    "use strict";
 
     let height = 0;
 
@@ -348,6 +300,7 @@ function addCategories(nav){
 
 // Add subcategories next to the major category.
 function addSubCategories(nav, catname){
+    "use strict";
     console.log(catname);
 
     // Continue here next time.
@@ -395,6 +348,7 @@ function addSubCategories(nav, catname){
 }
 
 function addNavIcons(nav, catname, subcatname){
+    "use strict";
     console.log(catname, subcatname);
     console.log(course_structure);
 
@@ -402,7 +356,7 @@ function addNavIcons(nav, catname, subcatname){
     let icons = course_structure
                     .find( e => Object.keys(e)[0] === catname )[catname]
                     .find( e => Object.keys(e)[0] === subcatname );
-    console.log(icons)
+    console.log(icons);
 
     let iconbox = $('<div>');
     iconbox.addClass('iconbox');
@@ -412,7 +366,7 @@ function addNavIcons(nav, catname, subcatname){
     icons[subcatname].forEach(function(link, index){
         let div = $('<div>');
         let span = $('<span>');
-        let contents = $('<img src="http://placeskull.com/75/75/' + getColor(index).slice(1,7) + '"/>')
+        let contents = $('<img src="http://placeskull.com/75/75/' + getColor(index).slice(1,7) + '"/>');
 
         div.addClass('icon');
         div.css('background-color', getColor(index));
@@ -441,6 +395,7 @@ function addNavIcons(nav, catname, subcatname){
 }
 
 function addListeners(){
+    "use strict";
 
     let nav = $('#stux_navbox');
 
@@ -463,6 +418,7 @@ function addListeners(){
 
 
 $(document).ready(function(){
+    "use strict";
 
     console.log('working');
     console.log(course_structure);
