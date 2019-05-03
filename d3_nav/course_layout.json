@@ -1,0 +1,71 @@
+{
+  "name": "course",
+  "children": [
+    {
+      "name": "Chapter 1: Introduction: the Nature of Science and Physics",
+      "children": [
+        {
+          "name": "1.1 Physics: An Introduction"
+        },
+        {
+          "name": "1.2 Physical Quantities and Units"
+        },
+        {
+          "name": "1.3 Accuracy, Precision, and Significant Figures"
+        },
+        {
+          "name": "1.4 Approximation"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 2: Kinematics",
+      "children": [
+        {
+          "name": "2.1 Displacement"
+        },
+        {
+          "name": "2.2 Vectors, Scalars, and Coordinate Systems"
+        },
+        {
+          "name": "2.3 Time, Velocity, and Speed"
+        },
+        {
+          "name": "2.4 Acceleration"
+        },
+        {
+          "name": "2.5 Motion Equations for Constant Acceleration in One Dimension"
+        },
+        {
+          "name": "2.6 Problem-Solving Basics for One Dimensional Kinematics"
+        },
+        {
+          "name": "2.7 Falling Objects"
+        },
+        {
+          "name": "2.8 Graphical Analysis of One Dimensional Motion"
+        }
+      ]
+    },
+    {
+      "name": "Chapter 3: Two-Dimensional Kinematics",
+      "children": [
+        {
+          "name": "3.1 Kinematics in Two Dimensions: An Introduction"
+        },
+        {
+          "name": "3.2 Vector Addition and Subtraction: Graphical Methods"
+        },
+        {
+          "name": "3.3 Vector Addition and Subtraction: Analytical Methods"
+        },
+        {
+          "name": "3.4 Projectile Motion"
+        },
+        {
+          "name": "3.5 Addition of Velocities"
+        }
+      ]
+    }
+  ]
+}
