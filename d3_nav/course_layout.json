@@ -66,6 +66,35 @@
           "name": "3.5 Addition of Velocities"
         }
       ]
+    },
+    {
+      "name": "Chapter 4: Dynamics: Force and Newton's Laws of Motion",
+      "children": [
+        {
+          "name": "4.1. Development of Force Concept"
+        },
+        {
+          "name": "4.2. Newton's First Law of Motion: Inertia"
+        },
+        {
+          "name": "4.3. Newton's Second Law of Motion: Concept of a System"
+        },
+        {
+          "name": "4.4. Newton's Third Law of Motion: Symmetry in Forces"
+        },
+        {
+          "name": "4.5. Normal, Tension, and Other Examples of Force"
+        },
+        {
+          "name": "4.6. Problem-Solving Strategies"
+        },
+        {
+          "name": "4.7. Further Applications of Newton's Laws of Motion"
+        },
+        {
+          "name": "4.8. Extended Topic: The Four Basic Forces—An Introduction"
+        }
+      ]
     }
   ]
 }
