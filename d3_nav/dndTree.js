@@ -429,7 +429,7 @@ treeJSON = d3.json('course_layout.json', function(error, treeData) {
       d.y = d.depth * (maxLabelLength * 10); //maxLabelLength * 10px
       // alternatively to keep a fixed scale one can set a fixed depth per level
       // Normalize for fixed-depth by commenting out below line
-      // d.y = (d.depth * 500); //500px per level.
+      d.y = d.depth * 400; //400px per level.
     });
 
     // Update the nodes…
