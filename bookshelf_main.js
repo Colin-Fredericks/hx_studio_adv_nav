@@ -453,7 +453,7 @@ function addNavIcons(nav, catname, subcatname) {
     let div = $('<div>');
     let span = $('<span>');
     let contents = $(
-      '<img src="placeholders/' + Math.floor(Math.random() * 16 + 1) + '.png"/>'
+      '<img src="placeholder_' + Math.floor(Math.random() * 16 + 1) + '.png"/>'
     );
 
     div.addClass('icon');
